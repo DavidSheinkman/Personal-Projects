@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #252424;
+  background-color: #006241;
 }
 
 .header h1 {
@@ -17,3 +17,4 @@
   margin: 0;
   padding: 0;
 }
+

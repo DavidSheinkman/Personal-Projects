@@ -6,6 +6,9 @@ import CartItem from './CartItem';
 
 const Cart = (props) => {
   const cartItems = useSelector((state) => state.cart.items);
+  const totalMealProtein = useSelector((state) => state.cart.totalMealProtein);
+  const totalMealCalories = useSelector((state) => state.cart.totalMealCalories);
+  
 
   return (
     <Card className={classes.cart}>
@@ -26,6 +29,8 @@ const Cart = (props) => {
           />
         ))}
       </ul>
+      <h3>Total Protein: {totalMealProtein}</h3>
+      <h3>Total Calories: {totalMealCalories}</h3>
     </Card>
   );
 };
