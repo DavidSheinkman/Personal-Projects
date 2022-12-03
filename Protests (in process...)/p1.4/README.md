@@ -1,9 +1,10 @@
 # Protests (in process...)
 
 Website made in React for:
--Finding information about protests 
--Creating new protests
--Commenting on protests
+
+- Finding information about protests 
+- Creating new protests
+- Commenting on protests
 
 ## Features
 
