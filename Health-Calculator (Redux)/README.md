@@ -1,6 +1,6 @@
-# Health Calcutaor (Redux)
+# Health Calculator (Redux)
 
-Health Calcutaor made in React using Redux. 
+Health calculator made in React using Redux. 
 
 calculates protein and calories of my favourite food 
 ## Features
