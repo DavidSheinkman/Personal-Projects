@@ -30,3 +30,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screenshots
 
+![front_page_animate](https://i.imgur.com/4r6wAEQ.png)
+![front_page_animate](https://i.imgur.com/ekuffLb.png)
