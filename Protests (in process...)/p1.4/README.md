@@ -1,10 +1,15 @@
-# Protests
+# Protests (in process...)
 
-Website to find protests made in React
+Website made in React for:
+-Finding information about protests 
+-Creating new protests
+-Commenting on protests
+
 ## Features
 
 - Routing
-- HTTP
+- connected to a Data Base
+- HTTP requests 
 - Forms
 - Logging using Token validation
 
