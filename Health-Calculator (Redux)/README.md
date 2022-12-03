@@ -16,7 +16,7 @@ calculates protein and calories of my favourite food
 
 ## Demo
 
-LIVE DEMO https://calc-efe5e.web.app/
+LIVE DEMO https://calc-9c7f9.web.app/
 
 
 
