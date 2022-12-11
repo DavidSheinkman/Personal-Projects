@@ -4,7 +4,7 @@ David Sheinkman started 7-12-2022
 
 ## Demo
 
-** IMPORTANT : Need to Refresh after first time loading the site **  (small security bug)
+*** IMPORTANT : Need to Refresh after first time loading the site ***  (small security bug)
 
 LIVE DEMO https://abra-assignment.web.app
 
