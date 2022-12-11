@@ -4,23 +4,23 @@ David Sheinkman started 7-12-2022
 
 ## Demo
 
-*** IMPORTANT : Need to Refresh after first time loading the site ***  (small security bug)
+*** IMPORTANT : Need to REFRESH ONE TIME After the site is loaded ***  (small security bug)
 
 LIVE DEMO https://abra-assignment.web.app
 
 ## SPECS
 
-- Responsive - implemented
-- State management using Redux and Hooks - implemented
-- API error handling - implemented
+- State management using Redux and Hooks.
+- Responsive.
+- API error handling
 
-- Geolocation API - not implemented
 
 ## BONUSES 
 
-- Dark/Light theme support.
-- Celsius/Fahrenheit toggle button.
-- Animations.
+- Dark/Light theme support - implemented
+- Celsius/Fahrenheit toggle button - implemented
+- Animations - implemented
+- Geolocation API - not implemented
 
 ## Made using
 - React
