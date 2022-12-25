@@ -1,6 +1,6 @@
 # 💫 About Me
 My name is <b>David Sheinkman</b> and I'm a Front-end/Full-stack Developer. <br />
-Visit my portoflio site for more: [brunodzi.dev](https://david-sheinkman.web.app)
+Visit my portoflio site for more: [https://david-sheinkman.web.app](https://david-sheinkman.web.app)
 
 ## 🌐 Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-sheinkman-reactjs-developer/)
