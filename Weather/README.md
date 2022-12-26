@@ -9,7 +9,7 @@ a simple, responsive, web app in react that shows the weather of some city.
 - Routing
 - API
 - Forms
-- Logging using Token validation
+
 
 ## Made using
 - React
@@ -28,9 +28,7 @@ LIVE DEMO https://abra-assignment.web.app
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-if you are too lazy too create a new account use these:
-- email: test@gmail.com
-- password: 123456789 
+
 
 
 
