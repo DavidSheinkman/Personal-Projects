@@ -27,8 +27,8 @@ const MainNavigation2 = () => {
     <nav className="flex items-center justify-between flex-wrap bg-sky-900 p-6">
     <div className="flex items-center flex-shrink-0 text-white mr-6">
       
-      <img alt="logo" className="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" src="https://www.abra-it.com/wp-content/uploads/2022/01/Abra-logo-FullColor-white-1.svg" />
-      <span className="font-semibold text-xl tracking-tight">Weather Task</span>
+      
+      <span className="font-semibold text-xl tracking-tight">Weather</span>
     </div>
     <div className="block lg:hidden">
       <button onClick={() => changeHamburger()} className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">

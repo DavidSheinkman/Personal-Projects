@@ -8,7 +8,7 @@ const favoritesSlice = createSlice({
   initialState: initialMainCityState,
   reducers: {
     addCity(state, action) {
-      
+      console.log(state.favoritesCities)
       if (!state.favoritesCities.filter(e => e.name === action.payload.name).length > 0) {
         state.favoritesCities.push(action.payload);
       }else{
