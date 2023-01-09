@@ -32,11 +32,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screenshots
 
-- Home Page:
+Home Page
+
 ![front_page_animate](https://i.imgur.com/AtOpMlB.png)
-- Dark Mode:
+Dark Mode
+
 ![front_page_animate](https://i.imgur.com/VAXSEiO.png)
-- English Only Validation:
+English Only Validation
+
 ![front_page_animate](https://i.imgur.com/xw6H7C6.png)
 
 
