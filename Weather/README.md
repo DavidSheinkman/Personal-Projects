@@ -3,9 +3,10 @@
 a simple, responsive, web app in react that shows the weather of some city.
 
 ## Features
-
-- Responsive design
-- Error handling
+- Dark Mode
+- English Only Validation
+- Responsive Design
+- Error Handling
 - Routing
 - API
 - Forms
