@@ -17,7 +17,7 @@ a simple, responsive, web app in react that shows the weather of some city.
 
 ## Demo
 
-LIVE DEMO https://abra-assignment.web.app
+LIVE DEMO https://weather-ds.web.app/home
 
 
 
