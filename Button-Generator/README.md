@@ -24,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screenshots
 
-![front_page_animate](https://i.imgur.com/AtOpMlB.png)
+![front_page_animate](https://i.imgur.com/1LJKBW0.png)
 
 
 
