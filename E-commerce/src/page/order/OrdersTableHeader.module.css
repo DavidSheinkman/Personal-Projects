@@ -1,0 +1,11 @@
+.cell {
+  background-color: #f3f3f3;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+.cell:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}

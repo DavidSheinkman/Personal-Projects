@@ -1,0 +1,68 @@
+.codeContainer {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  background-color: #f6f8fa;
+  padding: 0px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.header {
+  background-color: #f6f8fa;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #c0c0c0;
+  border-left: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.headerTitle {
+  color: #576060;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.copyButton {
+  background-color: transparent;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.codeBackground {
+  background-color: #ffffff;
+
+  padding: 1px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid #c0c0c0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.copyIcon {
+  color: #576060;
+  margin-right: 10px;
+}
+
+.code-block {
+  background-color: #ffffff !important;
+}
