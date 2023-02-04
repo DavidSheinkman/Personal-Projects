@@ -8,6 +8,10 @@ Two versions of an improved CSS button generator developed using React, one util
 - React
 - CSS 
 
+## Features
+- Adding an Animation (Gif)
+
+
 ## Demo
 
 LIVE DEMO https://css-buttongenerator.web.app/
