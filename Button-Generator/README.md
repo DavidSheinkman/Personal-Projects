@@ -1,15 +1,7 @@
-# Weather Web App 
+# CSS Button Generator
 
 a simple, responsive, web app in react that shows the weather of some city.
 
-## Features
-- Dark Mode
-- English Only Validation
-- Responsive Design
-- Error Handling
-- Routing
-- API
-- Forms
 
 
 ## Made using
@@ -17,7 +9,7 @@ a simple, responsive, web app in react that shows the weather of some city.
 
 ## Demo
 
-LIVE DEMO https://weather-ds.web.app/home
+LIVE DEMO https://css-buttongenerator.web.app/
 
 
 
@@ -32,14 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screenshots
 
-Home Page
-
 ![front_page_animate](https://i.imgur.com/AtOpMlB.png)
-Dark Mode
 
-![front_page_animate](https://i.imgur.com/VAXSEiO.png)
-English Only Validation
-
-![front_page_animate](https://i.imgur.com/xw6H7C6.png)
 
 
