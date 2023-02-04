@@ -1,11 +1,12 @@
 # CSS Button Generator
 
-a simple, responsive, web app in react that shows the weather of some city.
+Two versions of an improved CSS button generator developed using React, one utilizing props and hooks, and the other using Redux for state management. Both versions feature a refined user interface for an enhanced experience with added features.
 
 
 
 ## Made using
 - React
+- CSS 
 
 ## Demo
 
