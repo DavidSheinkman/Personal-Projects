@@ -1,0 +1,10 @@
+
+
+.container {
+    font-family:Arial, Helvetica, sans-serif;
+  
+      color: #dedede;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }

@@ -1,0 +1,51 @@
+.container {
+  margin-top: 7.5rem;
+  flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container2 {
+    margin-top: 7.5rem;
+    flex: 1;
+      
+      display: flex;
+      flex-direction: column;
+    }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="color"] {
+    
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .heading{
+    font-size: 2rem;
+    font-weight: 700;
+    
+    margin-bottom: 2rem;
+    margin-top: 0px;
+  }
+
+  .button {
+    margin-top: 2.2rem;
+    cursor:pointer;
+    
+    color: #ffffff;
+    border: none;
+    padding: 1rem  1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: linear-gradient(270deg, rgb(117, 81, 203) 3.49%, rgb(81, 114, 200) 92.38%);
+  }
+  
+  

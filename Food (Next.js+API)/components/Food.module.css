@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@700&display=swap');
+
+
+
+.foodContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+
+.food {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  width: 950px;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+.multiSelect {
+ 
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  border-radius: 5px;
+}
+
+
+.multiSelect select {
+  font-size: 17px;
+  display: flex;
+  color: #6a93a7;
+  border: 0px solid #dfdfdf;
+  width: 80%;
+  padding: 18px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.selectedItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selectedItemsList {
+  color: #5d8ea4;
+}
+
+.submitButton {
+  background-color: #5d8ea4;
+  color: #ffffff;
+  border: 1px solid #5d8ea4;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  width: 220px;
+  height: 57px;
+  padding: 10px 30px;
+  size: 10px 30px;
+  font-weight: 600;
+  box-shadow: 0px 0px 0px 0px #ffffff;
+  text-shadow: 0px 0px 0px #ffffff;
+}
+
+.submitButton:hover {
+  background-color: #ffffff;
+  color: #5d8ea4;
+  border: 1px solid #5d8ea4;
+}
+.line {
+  border-bottom: 1px solid #5d8ea4;
+  width: 80%;
+  margin-bottom: 38px;
+  margin-top: 20px;
+}
+
+.line2 {
+  color: #dfdfdf;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.itemListLabel {
+  color: #5d8ea4;
+  font-weight: 700;
+}
+
+.totalPrice {
+  color: #5d8ea4;
+  margin-bottom: 50px;
+}
+
+
+.ulList {
+  color: #5d8ea4;
+  margin-bottom: 25px;
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+.totalPriceLabel {
+  color: #5d8ea4;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.totalPriceNumber {
+  font-size: 14px;
+}
+
+
+.foodOption {
+  width: 80%;
+  display: flex;
+  border: 0px ;
+  background-color: #f2f6f8;
+  padding-bottom: 50px;
+  color: #939598;
+  
+}
+
+.inputLine {
+  color: red;
+}
+
+
+.multiSelect2 {
+  border-radius: 5px;
+}
+

@@ -1,0 +1,27 @@
+.navbar {
+    
+    font-size: 16px;
+    
+    padding: 2.7rem 4rem;
+  }
+  
+  ul {
+    padding-inline-start: 180px;
+    list-style-type: none;
+    margin: 0;
+    
+  }
+  
+  li {
+    display: inline-block;
+    
+    margin-right: 2.7rem;
+  }
+  
+  a {
+    text-decoration: none;
+    
+  }
+  
+ 
+  

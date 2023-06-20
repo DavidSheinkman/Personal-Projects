@@ -1,0 +1,36 @@
+/* TextButtonComponent.module.css */
+
+.container {
+  margin-top: 7.5rem;
+  margin-left: 1.5rem;
+   
+  }
+  
+  h1 {
+    font-size: 3.375rem;
+    font-weight: 700;
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  p {
+    margin-bottom: 0.9rem;
+    margin-top: 0.9rem;
+    
+   
+  }
+  
+ /* TextButtonComponent.module.css */
+
+.button {
+    cursor:pointer;
+    background-color: #2a8a1d;
+    color: #ffffff;
+    border: none;
+    padding: 1rem  1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  

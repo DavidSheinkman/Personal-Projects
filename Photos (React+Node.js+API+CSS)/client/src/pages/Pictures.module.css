@@ -1,0 +1,64 @@
+
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  justify-items: center;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+
+.pictureItem img {
+  width: 100%; 
+  height: 100%;
+  cursor: pointer;
+  
+}
+
+.pictureItem:hover img {
+  filter: brightness(1.2);
+}
+
+
+
+
+.row {
+  background-color: #2e3035;
+  color: #b4b9c2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+button {
+  background-color: #2e3035;
+  color: #b4b9c2;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.whitebutton:hover {
+  
+  color: white;
+
+}
+
+.redbutton:hover {
+  
+  color: #fc6369;
+
+}
+
+.greenbutton:hover {
+  
+  color: #01b96b;
+
+}
+
+
