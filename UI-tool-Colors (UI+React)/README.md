@@ -27,8 +27,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Home Page
 
-<!-- ![front_page_animate](https://i.imgur.com/AtOpMlB.png)
-Dark Mode
- -->
+![front_page_animate](https://i.imgur.com/EyFauba.png)
+
+
 
 

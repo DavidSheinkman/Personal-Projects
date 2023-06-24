@@ -18,7 +18,7 @@ LIVE DEMO https://fixed-web3m.netlify.app/
 
 1. Installation: `npm install`
 
-2. In the project directory, you can run: `npm start`
+2. In the project directory, you can run: `npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -26,9 +26,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Screenshots
 
 Home Page
-<!-- 
-![front_page_animate](https://i.imgur.com/AtOpMlB.png)
-Dark Mode -->
+
+![front_page_animate](https://i.imgur.com/Q9BXBXt.png)
+![front_page_animate](https://i.imgur.com/blDyvom.png)
 
 
 
