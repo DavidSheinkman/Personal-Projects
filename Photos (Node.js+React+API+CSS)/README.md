@@ -1,6 +1,6 @@
-# MSapps Home Assignment
+# Photos
 
-MSapps Home Assignment Solution by David Sheinkman 24-May-2023
+API-driven project Node.js integrate photos related data from external API 
 
 ## 🛠 Installation and Setup Instructions
 
@@ -19,19 +19,9 @@ then in the client directory, you can run: `npm install`
 
 2. Starting:
 
-
-
-
 In the server directory, you can run: `npm run dev`
 
-
-
-
 then in the client directory, you can run: `npm start`
-
-
-
-
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
