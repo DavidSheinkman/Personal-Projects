@@ -38,9 +38,7 @@ server http://localhost:5000
 - Node.js
 
 
-## Demo
 
-LIVE DEMO ....
 
 ## Screenshots
 

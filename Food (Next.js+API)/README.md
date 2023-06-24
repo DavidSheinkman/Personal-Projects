@@ -1,6 +1,6 @@
-# Food API
+# Food
 
-Food API
+API-driven project Next.js integrate food related data from external API 
 
 
 

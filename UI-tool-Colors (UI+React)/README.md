@@ -1,8 +1,6 @@
 # UI Tool - Colors Optimizition 
 
-UI Tool - Colors Optimizition 
-
-
+A user-friendly UI tool for optimizing colors, assisting designers in achieving better contrast and complementing color palettes. 
 
 
 ## Made using
