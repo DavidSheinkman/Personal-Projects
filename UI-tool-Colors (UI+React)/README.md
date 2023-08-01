@@ -6,7 +6,7 @@ A user-friendly UI tool for optimizing colors, assisting designers in achieving 
 
 UI - Complementary Colors Generation: Effortlessly create stunning complementary color palettes to elevate your designs and make them visually captivating.
 
-UX - Contrast Optimization: Ensure enhanced readability and accessibility in your projects by fine-tuning color contrast for text and background elements. With ColorOptimize, achieving optimal contrast ratios has never been easier.
+UX - Contrast Optimization: Ensure enhanced readability and accessibility in your projects by fine-tuning color contrast for text and background elements. 
 
 # UI - Complementary Colors Generation
 
