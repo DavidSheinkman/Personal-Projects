@@ -1,8 +1,8 @@
-# UI Tool - Colors Optimizition 
+# UI/UX Tool - Colors Optimizition 
 
 A user-friendly UI tool for optimizing colors, assisting designers in achieving better Contrast and Complementary color palettes. 
 
-# UI/UX Features
+# Key Features
 
 UI - Complementary Colors Generation: Effortlessly create stunning complementary color palettes to elevate your designs and make them visually captivating.
 
