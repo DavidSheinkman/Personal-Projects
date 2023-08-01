@@ -64,43 +64,80 @@ const ColorInputComponent = () => {
       <div className={styles.container}  >
       <h1 className={styles.heading}>Choose Colors:</h1>
         <label htmlFor="mainTextColor">
-          Main Text Color: {mainTextColorInput}
+          Main Text Color: 
         </label>
         <input
+        className={styles.textinput}
           value={mainTextColorInput}
           onChange={handleMainTextColor}
           type="color"
           id="mainTextColor"
           name="mainTextColor"
         />
+        <input
+        className={styles.textinput}
+          value={mainTextColorInput}
+          onChange={handleMainTextColor}
+          type="text"
+          id="mainTextColor"
+          name="mainTextColor"
+        />
 
         <label htmlFor="backgroundColor">
-          Background Color: {backgroundColorInput}
+          Background Color: 
         </label>
         <input
+        
+        className={styles.textinput}
           type="color"
           value={backgroundColorInput}
           id="backgroundColor"
           name="backgroundColor"
           onChange={handleBackgroundColor}
         />
-
-        <label htmlFor="buttonColor">Button Color: {buttonColorInput}</label>
         <input
+        className={styles.textinput}
+          type="text"
+          value={backgroundColorInput}
+          id="backgroundColor"
+          name="backgroundColor"
+          onChange={handleBackgroundColor}
+        />
+
+        <label htmlFor="buttonColor">Button Color: </label>
+        <input
+        className={styles.textinput}
           value={buttonColorInput}
           onChange={handleButtonColor}
           type="color"
           id="buttonColor"
           name="buttonColor"
         />
+        <input
+        className={styles.textinput}
+          value={buttonColorInput}
+          onChange={handleButtonColor}
+          type="text"
+          id="buttonColor"
+          name="buttonColor"
+        />
 
         <label htmlFor="buttonTextColor">
-          Button Text Color: {buttonTextColorInput}
+          Button Text Color: 
         </label>
         <input
+        className={styles.textinput}
           value={buttonTextColorInput}
           onChange={handleButtonTextColor}
           type="color"
+          id="buttonTextColor"
+          name="buttonTextColor"
+        />
+        <input
+          className={styles.textinput}
+          value={buttonTextColorInput}
+          onChange={handleButtonTextColor}
+          type="text"
           id="buttonTextColor"
           name="buttonTextColor"
         />
@@ -109,19 +146,27 @@ const ColorInputComponent = () => {
 
       <h1 className={styles.heading}>Optimize Colors:</h1>
         <div>
-          <button onClick={handleOP} className={styles.button}>
+          <button onClick={handleOP} className={styles.buttonContrast}>
             Optimize Contrast
           </button>
         </div>
-        <div>
-          <button onClick={handleOP3} className={styles.button}>
-            Compimentry Text 
-          </button>
+        <div className={styles.brline} style={{  backgroundColor: mainTextColorInput}}>
+        
         </div>
 
+        
+        <div>
+          <button onClick={handleOP3} className={styles.button}>
+          Complement Text 
+          </button>
+        </div>
+        <div className={styles.or}>
+        OR
+        </div>
+            
         <div>
           <button onClick={handleOP2} className={styles.button}>
-            Compimentry BackGround
+          Complement Background
           </button>
         </div>
       </div>

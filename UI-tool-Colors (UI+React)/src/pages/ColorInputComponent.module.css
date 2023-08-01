@@ -1,5 +1,5 @@
 .container {
-  margin-top: 7.5rem;
+  margin-top: 6rem;
   flex: 1;
     
     display: flex;
@@ -7,7 +7,7 @@
   }
 
   .container2 {
-    margin-top: 7.5rem;
+    margin-top: 6rem;
     flex: 1;
       
       display: flex;
@@ -46,6 +46,37 @@
     font-size: 1.2rem;
     font-weight: 700;
     background: linear-gradient(270deg, rgb(117, 81, 203) 3.49%, rgb(81, 114, 200) 92.38%);
+  }
+
+  .buttonContrast {
+    
+    cursor:pointer;
+    
+    color: #ffffff;
+    border: none;
+    padding: 1rem  1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: linear-gradient(270deg, rgb(117, 81, 203) 3.49%, rgb(81, 114, 200) 92.38%);
+  }
+
+  .brline{
+    margin-top: 2.2rem;
+    
+    height: 1px;
+    width:70%;
+  }
+
+  .or{
+    margin-top: 2.2rem;
+    font-weight: 600;
+  }
+
+  .textinput{
+    width: 23%;
+    margin-bottom: 0.5rem;
+    margin-left: 10rem;
   }
   
   
