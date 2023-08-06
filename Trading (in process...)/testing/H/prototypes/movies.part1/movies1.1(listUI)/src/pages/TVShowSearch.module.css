@@ -1,0 +1,23 @@
+.moviesul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    
+  }
+  
+  .movieli {
+    
+    margin: 5px;
+   
+
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    
+  }
+  
+
+  
+
+  
