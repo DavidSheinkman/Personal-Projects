@@ -5,7 +5,7 @@ import MovieInfo from "./MovieInfo";
 import styles from "./MovieSearch.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { movieSettingsActions } from "../store/movie-slice";
-import { Link } from "react-router-dom";
+
 
 const MovieSearch = () => {
   const dispatch = useDispatch();
@@ -13,7 +13,6 @@ const MovieSearch = () => {
   const search = useSelector((state) => state.moviesettings.search);
   const [moreInfoModul, setMoreInfoModul] = useState(false);
 
-  const [searchSuggestions, setSearchSuggestions] = useState(null);
 
   const movies = useSelector((state) => state.moviesettings.movies);
 
@@ -36,7 +35,7 @@ const MovieSearch = () => {
         searchContainerRef.current &&
         !searchContainerRef.current.contains(event.target)
       ) {
-        setSearchSuggestions(null); // Close the dropdown when clicking outside
+       
       }
     };
 
@@ -50,11 +49,11 @@ const MovieSearch = () => {
           );
           const movieData = response.data.results.map((item) => item);
 
-          
+          dispatch(movieSettingsActions.changeMovies(movieData));
 
-          setSearchSuggestions(movieData);
+        
           dispatch(movieSettingsActions.changeSearchSuggestions(movieData));
-       
+        
         } catch (error) {
           console.error("Error fetching movies:", error);
         }
@@ -69,7 +68,7 @@ const MovieSearch = () => {
           const movieData = response.data.results.map((item) => item);
 
           dispatch(movieSettingsActions.changeMovies(movieData));
-          setSearchSuggestions(movieData);
+       
 
           dispatch(movieSettingsActions.changeSearchSuggestions(movieData));
 
@@ -109,26 +108,14 @@ const MovieSearch = () => {
   };
 
   const handleMovieItemClick = (movie) => {
-    setSearchSuggestions(null);
-    
-    dispatch(movieSettingsActions.changeMovie(movie));
-    dispatch(movieSettingsActions.changeSearch(""));
-  };
-
-  const handleMovieItemInfoClick = (movie) => {
-    setSearchSuggestions(null);
-    
-    dispatch(movieSettingsActions.changeMovie(movie));
-    dispatch(movieSettingsActions.changeSearch(""));
-    
-
-    setMoreInfoModul(true);
-  };
-
+   
   
+    dispatch(movieSettingsActions.changeMovie(movie));
+    dispatch(movieSettingsActions.changeSearch(""));
+  };
 
   const handleSortChange = (event) => {
-
+  
     setSortCriteria(event.target.value);
     sortMovies(event.target.value);
   };
@@ -146,15 +133,18 @@ const MovieSearch = () => {
     dispatch(movieSettingsActions.changeMovies(sortedMovies));
   };
 
-  const handleEnterKey = (event) => {
-    if (event.key === "Enter") {
-    
-      dispatch(movieSettingsActions.changeMovies(searchSuggestions));
-      setSearchSuggestions(null)
-    }
-  };
   const handleCloseMovieModal = () => {
     setMoreInfoModul(false);
+  };
+
+  const handleMovieItemInfoClick = (movie) => {
+   
+    
+    dispatch(movieSettingsActions.changeMovie(movie));
+    dispatch(movieSettingsActions.changeSearch(""));
+    
+
+    setMoreInfoModul(true);
   };
 
 
@@ -167,24 +157,9 @@ const MovieSearch = () => {
           type="text"
           value={search}
           onChange={handleInputChange}
-          onKeyDown={handleEnterKey}
           placeholder="Search for a moovie"
         />
-        {search && searchSuggestions && (
-          <div className={styles.dropdown}>
-            {searchSuggestions.map((movie) => (
-              <Link to={`movie/${movie.title}`}>
-                <div
-                  key={movie.id}
-                  className={styles.suggestionItem}
-                  onClick={() => handleMovieItemClick(movie)}
-                >
-                  {movie.title}
-                </div>
-              </Link>
-            ))}
-          </div>
-        )}
+        
       </div>
 
       <div className={styles.subContainer}>
@@ -214,6 +189,7 @@ const MovieSearch = () => {
                 <MovieItem // One of the 3*3 Pictures
                   key={movie.id}
                   movie={movie}
+                  
                   onClick={() => handleMovieItemClick(movie)}
                   onClick2={() => handleMovieItemInfoClick(movie)}
                 />

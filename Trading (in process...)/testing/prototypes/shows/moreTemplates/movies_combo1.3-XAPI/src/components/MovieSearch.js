@@ -5,7 +5,6 @@ import MovieInfo from "./MovieInfo";
 import styles from "./MovieSearch.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { movieSettingsActions } from "../store/movie-slice";
-import { Link } from "react-router-dom";
 
 const MovieSearch = () => {
   const dispatch = useDispatch();
@@ -13,15 +12,10 @@ const MovieSearch = () => {
   const search = useSelector((state) => state.moviesettings.search);
   const [moreInfoModul, setMoreInfoModul] = useState(false);
 
-  const [searchSuggestions, setSearchSuggestions] = useState(null);
-
   const movies = useSelector((state) => state.moviesettings.movies);
 
   const [debounceTimeout, setDebounceTimeout] = useState(null);
   const [sortCriteria, setSortCriteria] = useState("");
-  
-
-
 
   useEffect(() => {
     const handleOutsideClick = (event) => {
@@ -29,45 +23,36 @@ const MovieSearch = () => {
         searchContainerRef.current &&
         !searchContainerRef.current.contains(event.target)
       ) {
-        setSearchSuggestions(null); // Close the dropdown when clicking outside
       }
     };
 
     const fetchMovies = async () => {
-     
       if (search.trim() !== "") {
         try {
           const response = await axios.get(
-            `http://www.omdbapi.com/?apikey=10fe05bc&s=${search}`,
-            
+            `http://www.omdbapi.com/?apikey=10fe05bc&s=${search}`
           );
-          const movieData = response.data.Search.map((item) => item);
-         
-          
 
-          setSearchSuggestions(movieData);
-          
+          const movieData = response.data.Search.map((item) => item);
+
+          dispatch(movieSettingsActions.changeMovies(movieData));
+
           dispatch(movieSettingsActions.changeSearchSuggestions(movieData));
-          
         } catch (error) {
           console.error("Error fetching movies:", error);
         }
-      } else if (movies && movies.length>1 && search.trim() === "") {
-        
+      } else if (movies && movies.length > 1 && search.trim() === "") {
       } else {
         try {
           const response = await axios.get(
-            `http://www.omdbapi.com/?apikey=10fe05bc&s=batman`,
-            
+            `http://www.omdbapi.com/?apikey=10fe05bc&s=matrix`
           );
-          const movieData = response.data.Search.map((item) => item);
-        
-          dispatch(movieSettingsActions.changeMovies(movieData));
-          setSearchSuggestions(movieData);
-          
-          dispatch(movieSettingsActions.changeSearchSuggestions(movieData));
 
-         
+          const movieData = response.data.Search.map((item) => item);
+
+          dispatch(movieSettingsActions.changeMovies(movieData));
+
+          dispatch(movieSettingsActions.changeSearchSuggestions(movieData));
         } catch (error) {
           console.error("Error fetching movies:", error);
         }
@@ -103,26 +88,11 @@ const MovieSearch = () => {
   };
 
   const handleMovieItemClick = (movie) => {
-    setSearchSuggestions(null);
-    
     dispatch(movieSettingsActions.changeMovie(movie));
     dispatch(movieSettingsActions.changeSearch(""));
   };
-
-  const handleMovieItemInfoClick = (movie) => {
-    setSearchSuggestions(null);
-    
-    dispatch(movieSettingsActions.changeMovie(movie));
-    dispatch(movieSettingsActions.changeSearch(""));
-    
-
-    setMoreInfoModul(true);
-  };
-
-  
 
   const handleSortChange = (event) => {
-   ;
     setSortCriteria(event.target.value);
     sortMovies(event.target.value);
   };
@@ -140,17 +110,16 @@ const MovieSearch = () => {
     dispatch(movieSettingsActions.changeMovies(sortedMovies));
   };
 
-  const handleEnterKey = (event) => {
-    if (event.key === "Enter") {
-    
-      dispatch(movieSettingsActions.changeMovies(searchSuggestions));
-      setSearchSuggestions(null)
-    }
-  };
   const handleCloseMovieModal = () => {
     setMoreInfoModul(false);
   };
 
+  const handleMovieItemInfoClick = (movie) => {
+    dispatch(movieSettingsActions.changeMovie(movie));
+    dispatch(movieSettingsActions.changeSearch(""));
+
+    setMoreInfoModul(true);
+  };
 
   return (
     <div className={styles.mainContainer}>
@@ -161,24 +130,8 @@ const MovieSearch = () => {
           type="text"
           value={search}
           onChange={handleInputChange}
-          onKeyDown={handleEnterKey}
           placeholder="Search for a moovie"
         />
-        {search && searchSuggestions && (
-          <div className={styles.dropdown}>
-            {searchSuggestions.map((movie) => (
-              <Link to={`movie/${movie.Title}`}>
-                <div
-                  key={movie.imdbID}
-                  className={styles.suggestionItem}
-                  onClick={() => handleMovieItemClick(movie)}
-                >
-                  {movie.Title}
-                </div>
-              </Link>
-            ))}
-          </div>
-        )}
       </div>
 
       <div className={styles.subContainer}>
@@ -196,10 +149,10 @@ const MovieSearch = () => {
         </div>
 
         {moreInfoModul && (
-        <MovieInfo  onClose={() => handleCloseMovieModal(false)}/>
-      )}
+          <MovieInfo onClose={() => handleCloseMovieModal(false)} />
+        )}
 
-        {!movies  && <div>LOADING</div>}
+        {!movies && <div>LOADING</div>}
 
         {movies && (
           <ul className={styles.moviesul}>

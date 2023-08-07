@@ -90,15 +90,12 @@
   font-size: 14px;
   color: #FFFFFFFF;
 }
-/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
 
 .maincontainer{
   background: rgb(31,31,31);
   font-family: Roboto, Helvetica, Arial, sans-serif;
- 
 }
-/* OneMovie.module.css */
-
 .container {
   display: flex;
   flex-direction: column;
@@ -106,31 +103,49 @@
   align-items: center;
   padding: 20px;
   color: white;
+
+  
+
   margin: 20px;
-  height: calc(100vh - 40px); 
+  height: calc(100vh - 40px); /* Make the container take the whole screen with 20px padding on each side */
+}
+
+.back {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  align-self: flex-end;
 }
 
 .header {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  align-self: flex-start;
 }
 
 .pictures {
-  /* Add your styling for the movie pictures here */
-  /* You can use flexbox, grid, or any other layout method */
+ 
+  font-size: 24px;
+  
+  align-self: flex-start;
 }
 
 .category {
   margin-top: 20px;
+  align-self: flex-start;
 }
 
 .plot {
   margin-top: 20px;
- 
+  align-self: flex-start;
   
 }
 
 .cast {
   margin-top: 20px;
+  align-self: flex-start; 
 }
+
+
+

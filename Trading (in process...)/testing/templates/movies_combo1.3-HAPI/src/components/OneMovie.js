@@ -77,23 +77,31 @@ const OneMovie = () => {
     //   )}
     // </div>
     <div className={styles.maincontainer}>
-      {movieInfo && (
-        <div className={styles.container}>
-          <div className={styles.header}>{movieInfo.title}</div>
-          <div className={styles.header}>{movieInfo.title}</div>
-          <div className={styles.pictures}>
-            <img
-              className={styles.movieImg}
-              src={imgsrc}
-              alt={movieInfo.title}
-            />
+    {movieInfo && (
+      <div className={styles.container}>
+        <div className={styles.back}>
+          <div className={styles.moreInfoButtonContainer}>
+            <Link className={styles.moreInfoButton} to={`/`}>
+              Go Back
+            </Link>
           </div>
-          <div className={styles.category}>{movieInfo.title}</div>
-          <div className={styles.plot}>{movieInfo.overview}</div>
-          <div className={styles.cast}>{movieInfo.title}</div>
         </div>
-      )}
-    </div>
+        <div className={styles.header}>{movieInfo.title}</div>
+        <div className={styles.pictures}>
+          <img
+            className={styles.movieImg}
+            src={imgsrc}
+            alt={movieInfo.title}
+          />
+        </div>
+        <div className={styles.category}>{movieInfo.title}</div>
+        <div className={styles.plot}>{movieInfo.overview}</div>
+        <div className={styles.cast}>
+          <div>{movieInfo.title}</div>
+        </div>
+      </div>
+    )}
+  </div>
   );
 };
 
