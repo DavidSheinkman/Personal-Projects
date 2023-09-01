@@ -23,6 +23,7 @@ The Asos API allows you to query information about categories, products, and mor
 - CSS
 - React
 - Redux
+- React Router
 
 ## Demo
 
