@@ -1,6 +1,6 @@
 # E-commerce Clothing Shop
 
-This is a front-end React project for an E-commerce clothing shop designed to showcase CSS skills. The application is responsive and provides a pleasant experience on both web and mobile devices. 
+This is a front-end React project for an E-commerce clothing shop designed to showcase my CSS skills by optimizing the app's appearance on mobile devices. The application is responsive and provides a pleasant experience on both web and mobile devices. It also includes API data integration and routing to provide a seamless web and mobile user experience.
 
 
 ## Mobile Responsive:
