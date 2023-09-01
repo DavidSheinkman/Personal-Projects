@@ -3,15 +3,15 @@
 This is a front-end React project for an E-commerce clothing shop designed to showcase CSS skills. The application is responsive and provides a pleasant experience on both web and mobile devices. 
 
 
-# Mobile Responsive:
+## Mobile Responsive:
 
-# Web Home page:
+### Web Home page:
 ![front_page_animate](https://i.imgur.com/Sai9USz.png)
-# Mobile Home page:
+### Mobile Home page:
 ![front_page_animate](https://i.imgur.com/MikS3UF.png)
-# Web Product page:
+### Web Product page:
 ![front_page_animate](https://i.imgur.com/zEMiJJT.png)
-# Mobile Product page:
+### Mobile Product page:
 ![front_page_animate](https://i.imgur.com/bFz3RNu.png)
 
 # Asos API:
