@@ -12,7 +12,7 @@ Mobile Home page:
 Web Product page:
 ![front_page_animate](https://i.imgur.com/zEMiJJT.png)
 Mobile Product page:
-![front_page_animate](hthttps://i.imgur.com/bFz3RNu.png)
+![front_page_animate](https://i.imgur.com/bFz3RNu.png)
 
 # Asos API:
 
