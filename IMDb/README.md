@@ -16,7 +16,7 @@ This is a React-based web application that mimics the design and functionality o
 
 # IMDb API:
 
-
+This project relies on an unofficial, yet accurate IMDb data API to fetch movie and TV show information. The API provides data such as movie details, ratings, cast, and more.
 
 ## Made using:
 
