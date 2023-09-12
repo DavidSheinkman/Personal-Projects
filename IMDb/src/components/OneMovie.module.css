@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.generalContainer {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.generalContainer2 {
+  display: none;
+  align-items: center;
+  background-color: #1f1f1f;
+
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  padding: 5rem;
+  color: white;
+}
+
+.mainInfo {
+  display: flex;
+  width: 100%;
+}
+
+.titleAndTime {
+  margin-bottom: 10px;
+  margin-right: auto;
+}
+
+.movieTitle {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.runtime {
+  font-size: 14px;
+  margin: 0;
+  color: #ffffffb3;
+}
+
+.ratingBox {
+  text-align: right;
+  margin-top: 10px;
+  margin-left: auto;
+}
+
+.ratingBox2 {
+  text-align: right;
+  margin-top: 10px;
+  margin-left: 2rem;
+}
+
+.ratingLabel {
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffffb3;
+  letter-spacing: 0.15rem;
+}
+
+.imdbRating {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.imdbRating:hover {
+  background-color: #302c2b;
+  cursor: pointer;
+}
+
+.blueRating {
+  padding: 5px 5px;
+  color: #5799ef;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.blueRating:hover {
+  background-color: #302c2b;
+  cursor: pointer;
+}
+
+.blueStar {
+  font-size: 24px;
+}
+
+.imdbRating10 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffffb3;
+}
+
+.yellowStart {
+  color: #f5c518;
+  font-size: 24px;
+}
+
+.imgs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgs img {
+  width: 100%;
+  max-width: 278.266px;
+  max-height: 414.656px;
+  object-fit: cover;
+}
+
+.imgs img:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+.trailer {
+  margin-left: 0.3rem;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  max-width: 737.188px;
+  max-height: 414.656px;
+  background-image: url("https://media.tenor.com/L8d6hj-zJVgAAAAd/20th-century-studios-intro.gif");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.trailerButton {
+  display: flex;
+  font-size: 26px;
+  align-items: center;
+}
+
+.trailerButton:hover {
+  color: #5799ef;
+  cursor: pointer;
+}
+
+.videoAndPhotos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 205px;
+}
+
+.videosBox {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #323131;
+  width: 100%;
+  height: 100%;
+  max-width: 205px;
+  max-height: 205px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  margin: 0.15rem;
+  margin-left: 0.6rem;
+}
+
+.videosBox:hover {
+  background-color: #404040;
+  cursor: pointer;
+}
+
+.videosBoxIcons {
+  font-size: 28px;
+}
+
+.playIcon {
+  font-size: 70px;
+}
+
+.moreInfo {
+  margin-right: auto;
+  margin-top: 1rem;
+}
+.genreButton {
+  color: white;
+  background-color: #1f1f1f;
+  border: 1px solid #686564;
+  padding: 5px 10px;
+  border-radius: 1rem;
+  margin-right: 0.7rem;
+}
+
+.genreButton:hover {
+  background-color: #312e2c;
+  cursor: pointer;
+}
+
+.directors {
+  color: #5799ef;
+  font-weight: 400;
+}
+
+.directors:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.director {
+  font-weight: 600;
+}
+
+.brline {
+  background-color: #686564;
+  width: 100%;
+  height: 1px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+
+  padding: 11px;
+}
+
+.yellowBox {
+  background-color: rgb(245, 197, 24);
+  color: black;
+
+  font-weight: bold;
+
+  border-radius: 5px;
+  margin-left: 3.5rem;
+  margin-right: 0.35rem;
+  height: 32px;
+  width: 64px;
+  max-width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellowBox img {
+  width: 100%;
+  max-width: 62px;
+}
+
+.generalContainerM {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.firstContainerM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  color: white;
+}
+
+.mainInfoM {
+  display: flex;
+  width: 100%;
+}
+
+.titleAndTimeM {
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.movieTitleM {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.runtimeM {
+  font-size: 14px;
+  margin: 0;
+  color: #ffffffb3;
+}
+
+.ratingBoxM {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 1rem;
+}
+
+.ratingBox2M {
+  display: inline-block;
+  text-align: right;
+  margin-top: 10px;
+
+  margin-right: auto;
+}
+
+.ratingLabelM {
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffffffb3;
+  letter-spacing: 0.15rem;
+}
+
+.imdbRatingM {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.imdbRatingM:hover {
+  background-color: #302c2b;
+  cursor: pointer;
+}
+
+.blueRatingM {
+  padding: 5px 5px;
+  color: #5799ef;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.blueRatingM:hover {
+  background-color: #302c2b;
+  cursor: pointer;
+}
+
+.blueStarM {
+  font-size: 24px;
+}
+
+.imdbRating10M {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffffb3;
+}
+
+.yellowStartM {
+  color: #f5c518;
+  font-size: 24px;
+}
+
+.imgsM {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.ratingsM {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+
+.infoM {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+}
+
+.imgs2M {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.infoM img {
+  width: 100%;
+  max-width: 95px;
+  max-height: 140px;
+  object-fit: cover;
+}
+
+.infoM img:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
+
+.trailerM {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  max-width: 737.188px;
+  height: 266px;
+  background-image: url("https://media.tenor.com/L8d6hj-zJVgAAAAd/20th-century-studios-intro.gif");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.trailerButtonM {
+  display: flex;
+  font-size: 26px;
+  align-items: center;
+}
+
+.trailerButtonM:hover {
+  color: #5799ef;
+  cursor: pointer;
+}
+
+.videoAndPhotosM {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.videosBoxM1 {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #323131;
+  width: 100%;
+  height: 100%;
+  max-width: 205px;
+  max-height: 205px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  border-radius: 0 0 5px 5px;
+  margin-right: 0.1rem;
+}
+
+.videosBoxM2 {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #323131;
+  width: 100%;
+  height: 100%;
+  max-width: 205px;
+  max-height: 205px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  margin-left: 0.1rem;
+
+  border-radius: 0 0 5px 5px;
+}
+
+.videosBoxM:hover {
+  background-color: #404040;
+  cursor: pointer;
+}
+
+.videosBoxIconsM {
+  font-size: 14px;
+  margin: 0.5rem;
+}
+
+.playIconM {
+  font-size: 70px;
+}
+
+.moreInfoM {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.genreButtonM {
+  color: white;
+  background-color: #1f1f1f;
+  border: 1px solid #686564;
+  padding: 5px 10px;
+  border-radius: 1rem;
+  margin-right: 0.7rem;
+}
+
+.genreButtonM:hover {
+  background-color: #312e2c;
+  cursor: pointer;
+}
+
+.directorsM {
+  color: #5799ef;
+  font-weight: 400;
+}
+
+.directorsM:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.directorM {
+  font-weight: 600;
+}
+
+.brlineM {
+  background-color: #686564;
+  width: 100%;
+  height: 1px;
+}
+
+@media (max-width: 768px) {
+  .generalContainer {
+    display: none;
+  }
+
+  .generalContainer2 {
+    display: flex;
+  }
+}

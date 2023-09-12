@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+.movieItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.movieImg {
+  width: 81px;
+  height: 120px;
+}
+
+.movieDetails {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.movieTitle {
+  color: #000000de;
+
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.movieTitle:hover {
+  color: #757575;
+
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.release_date {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  color: #0000008a;
+}
+
+.vote_average {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: auto;
+  color: #0000008a;
+}
+
+.vote_average {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 300;
+}
+
+.vote10 {
+  color: #00000061;
+}
+
+.star {
+  color: #f5c518;
+}
+
+.bluestar {
+  color: #0e63be;
+  padding: 5px 10px;
+}
+
+.moreInfoButtonContainer {
+  margin-left: auto;
+}
+
+.moreInfoButton {
+  background-color: #fff;
+  color: #0e63be;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 28px;
+  border-radius: 5px;
+}
+
+.movieImg:hover {
+  cursor: pointer;
+  filter: brightness(1.2);
+}
