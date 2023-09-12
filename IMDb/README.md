@@ -5,14 +5,14 @@ This is a React-based web application that mimics the design and functionality o
 
 ## Mobile Responsive:
 
-### Web Home page:
-![front_page_animate](https://i.imgur.com/Sai9USz.png)
-### Mobile Home page:
-![front_page_animate](https://i.imgur.com/MikS3UF.png)
-### Web Product page:
-![front_page_animate](https://i.imgur.com/zEMiJJT.png)
-### Mobile Product page:
-![front_page_animate](https://i.imgur.com/bFz3RNu.png)
+### Web movies list page:
+![front_page_animate](https://i.imgur.com/55CSENF.png)
+### Mobile movies list page:
+![front_page_animate](https://i.imgur.com/wMfvmnG.png)
+### Web movie info page:
+![front_page_animate](https://i.imgur.com/bI6Aysl.png)
+### Mobile movie info page:
+![front_page_animate](https://i.imgur.com/fk50ZlV.png)
 
 # IMDb API:
 
