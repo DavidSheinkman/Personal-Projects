@@ -6,18 +6,27 @@ Experience our user-friendly Interactive Zoo Map. This project leverages React, 
 
 # Key features:
 
-- High-quality SVG buttons
-- Zoom and drag functionality for the map
-- Mobile-responsive design with appealing CSS
-- Custom React hook for streamlined HTTP requests
-- RESTful API for Create, Read, Update, and Delete operations
-- JSON data stored in the database 
+-High-Quality SVG Buttons: We've integrated high-quality SVG buttons into the Interactive Zoo Map to enhance the user experience. These buttons are not only visually appealing but also ensure smooth interaction with the map.
+
+-Zoom and Drag Functionality: Our map allows users to zoom in for a closer look at specific areas of interest and drag to navigate seamlessly. This feature provides a more detailed and engaging exploration of the zoo.
+
+-Mobile-Responsive Design with Appealing CSS: The project is designed with mobile responsiveness in mind, ensuring that it looks and functions beautifully on a variety of devices. The thoughtfully crafted CSS enhances the visual appeal, creating an immersive experience.
+
+-Custom React Hook for Streamlined HTTP Requests: We've implemented a custom React hook that simplifies and streamlines HTTP requests, making data retrieval and interaction with the map efficient and intuitive.
+
+-RESTful API for CRUD Operations: Our project includes a RESTful API (Representational State Transfer) that allows users to perform Create, Read, Update, and Delete operations. This ensures that managing the zoo's data is a straightforward and well-structured process.
+
+-JSON Data Stored in the Database: To power the zoo map and its features, we store data in a database using JSON format. This format is not only human-readable but also facilitates easy data manipulation, retrieval, and updat
 
 ## Made using:
 
-- CSS
 - React
-- React Router
+- Node.js
+- MongoDB
+- Express
+- CSS Modules
+
+
 
 ## Demo
 
