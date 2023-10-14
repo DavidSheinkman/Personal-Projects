@@ -1,6 +1,6 @@
 # Interactive Zoo Map
 
-This is a React-based web application that mimics the design and functionality of IMDb. It is designed to be mobile-responsive and provides information about movies, TV shows, and more.
+Interactive Zoo Map
 
 
 
