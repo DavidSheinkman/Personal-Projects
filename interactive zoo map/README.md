@@ -1,12 +1,17 @@
 # Interactive Zoo Map
 
-Interactive Zoo Map
+Experience our user-friendly Interactive Zoo Map. This project leverages React, Node.js, and MongoDB to transform a static image into an engaging and dynamic experience. Explore the zoo like never before.
 
 
 
 # Key features:
 
-
+- High-quality SVG buttons
+- Zoom and drag functionality for the map
+- Mobile-responsive design with appealing CSS
+- Custom React hook for streamlined HTTP requests
+- RESTful API for Create, Read, Update, and Delete operations
+- JSON data stored in the database 
 
 ## Made using:
 
