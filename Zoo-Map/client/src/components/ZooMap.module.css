@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap');
+
+body{
+  background-color: #9dd4bf;
+  padding: 0;
+  margin: 0;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: #19572f;
+  font-weight: 600;
+  font-size: 21px;
+  font-family: Assistant,sans-serif;
+  max-width: 100%;
+  width: 100%;
+  padding: 11px;
+
+}
+
+.NavBarLogo {
+  background-color:white;
+  display: flex;
+
+}
+
+.NavBarLogo img {
+  width: 60%;
+  max-width: 100%;
+  margin-left: 35%;
+}
+
+
+.NavBarMap {
+  background-color:white;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.NavBarAbout {
+  background-color:white;
+  display: flex;
+  margin-left: auto;
+  margin-right: 4rem;
+  
+}
+
+.NavBarAbout:hover {
+ cursor: pointer;
+  
+}
+
+.container {
+ 
+  max-width: 1844px;
+  max-height: 628px;
+  position: relative;
+  margin: auto;
+}
+
+
+.zooMapContainer {
+  position: relative;
+ 
+  width: 1844px ; 
+  height: 628px; 
+  background-image: url("../assets/ZooMap.jpg"); 
+  background-size: cover;
+ 
+}
+
+.animalButton {
+  position: absolute;
+  background: none; 
+  border: none; 
+  padding: 0; 
+  cursor: pointer;
+  height: auto;
+}
+
+.animalButton img {
+  display: block; 
+  width: 100%;
+  height: auto; 
+  transition: filter 0.3s ease;
+}
+
+.animalButton:hover img {
+  filter: brightness(1.5); 
+}
+
+.loaderContainer{
+  color: #19572f;
+  font-weight: 600;
+  font-size: 21px;
+  font-family: Assistant,sans-serif;
+  padding: 10%;
+  padding-bottom: 100%;
+}
+
+.loader {
+  margin-left: 50%;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #134e39 white;
+  animation: s1 1s infinite;
+  margin-bottom: 5%;
+}
+@keyframes s1 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+
+@media (max-width: 480px) {
+  .hideOnMobile {
+    display: none; 
+  }
+
+
+  .NavBar {
+   
+    width: 100%;
+    display: none;
+  
+  }
+
+}

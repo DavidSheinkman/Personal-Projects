@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,300;0,700;1,100&family=Vibes&display=swap');
+.modal {
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.Container {
+  
+ margin-left: auto;
+  height: 100%;
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  overflow-y: scroll;
+}
+
+
+.animalItemContainer{
+  height: 100%;
+  width: 80%;
+  max-width: 80%;
+  max-height: 100%;
+  margin-top: 3.5%;
+  margin: 10%;
+  color: #717371;
+  font-family: 'Roboto', sans-serif;
+}
+
+.animalName{
+  color: #5A5959;
+  font-size: 35px;
+
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.animalGenus{
+  color: #313e47;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Vibes', cursive;
+}
+
+
+.animalImage{
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+}
+
+.animalImageSize {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+
+.closeButton {
+ 
+  
+  width: 37px;
+  height: 37px;
+  background-color: #00b4e5;
+  color: #FFF;
+  
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  padding: 3px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 600;
+}
+
+.closeButton:hover {
+  background-color: #f5811f;
+}
+
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Arrange facts side by side */
+  font-size: 14px;
+  color: #717371;
+}
+
+.fact {
+  flex-basis: calc(50%);
+ 
+ 
+}
+
+h1 {
+  color: #00b4e5;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-bottom: 0rem; 
+}
+
+.factInfo{
+  margin-top: 0.2rem;
+}
+
+.quickFacts{
+  font-family: 'Vibes', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #313e47;
+  margin-bottom: 0.3rem;
+}
+
+.loader {
+  margin-left: 50%;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #134e39 white;
+  animation: s1 1s infinite;
+}
+@keyframes s1 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+@media (max-width: 480px) {
+  .animalImageSize {
+    max-width: 240px;
+    
+  }
+
+  .fact {
+    flex-basis: calc(100%);
+   
+   
+  }
+/* 
+  .modal {
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    width: 100vw; 
+    height: 100vh; 
+    z-index: 9999;
+  } */
+
+  .Container {
+    width: 100%;
+   
+       
+    
+    
+  
+  }
+}
