@@ -26,7 +26,7 @@ This project relies on an unofficial, yet accurate IMDb data API to fetch movie 
 
 ## Demo
 
-LIVE DEMO https://david-imdb.web.app/
+LIVE DEMO https://bylith.web.app
 
 
 
